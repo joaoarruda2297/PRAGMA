@@ -1,0 +1,570 @@
+[
+  {
+    "game": 1,
+    "status": {
+      "total_kills": 11,
+      "players": [
+        {
+          "nome": "Isgalamido",
+          "kills": 0
+        },
+        {
+          "nome": "Mocinha",
+          "kills": 0
+        }
+      ]
+    }
+  },
+  {
+    "game": 2,
+    "status": {
+      "total_kills": 4,
+      "players": [
+        {
+          "nome": "Isgalamido",
+          "kills": 1
+        },
+        {
+          "nome": "Mocinha",
+          "kills": 0
+        },
+        {
+          "nome": "Zeh",
+          "kills": 0
+        },
+        {
+          "nome": "Dono da Bola",
+          "kills": 0
+        }
+      ]
+    }
+  },
+  {
+    "game": 3,
+    "status": {
+      "total_kills": 105,
+      "players": [
+        {
+          "nome": "Isgalamido",
+          "kills": 21
+        },
+        {
+          "nome": "Dono da Bola",
+          "kills": 14
+        },
+        {
+          "nome": "Zeh",
+          "kills": 20
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": 14
+        }
+      ]
+    }
+  },
+  {
+    "game": 4,
+    "status": {
+      "total_kills": 14,
+      "players": [
+        {
+          "nome": "Isgalamido",
+          "kills": 2
+        },
+        {
+          "nome": "Zeh",
+          "kills": 1
+        },
+        {
+          "nome": "Dono da Bola",
+          "kills": 0
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": 2
+        }
+      ]
+    }
+  },
+  {
+    "game": 5,
+    "status": {
+      "total_kills": 29,
+      "players": [
+        {
+          "nome": "Oootsimo",
+          "kills": 8
+        },
+        {
+          "nome": "Zeh",
+          "kills": 7
+        },
+        {
+          "nome": "Isgalamido",
+          "kills": 3
+        },
+        {
+          "nome": "UnnamedPlayer",
+          "kills": 0
+        },
+        {
+          "nome": "Dono da Bola",
+          "kills": 2
+        },
+        {
+          "nome": "Maluquinho",
+          "kills": 0
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": 1
+        },
+        {
+          "nome": "Mal",
+          "kills": 0
+        }
+      ]
+    }
+  },
+  {
+    "game": 6,
+    "status": {
+      "total_kills": 130,
+      "players": [
+        {
+          "nome": "Zeh",
+          "kills": 11
+        },
+        {
+          "nome": "Dono da Bola",
+          "kills": 13
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": 22
+        },
+        {
+          "nome": "Oootsimo",
+          "kills": 20
+        },
+        {
+          "nome": "Isgalamido",
+          "kills": 16
+        },
+        {
+          "nome": "Mal",
+          "kills": 2
+        },
+        {
+          "nome": "Chessus",
+          "kills": 0
+        }
+      ]
+    }
+  },
+  {
+    "game": 7,
+    "status": {
+      "total_kills": 89,
+      "players": [
+        {
+          "nome": "Oootsimo",
+          "kills": 17
+        },
+        {
+          "nome": "Isgalamido",
+          "kills": 20
+        },
+        {
+          "nome": "Zeh",
+          "kills": 12
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": 10
+        },
+        {
+          "nome": "Mal",
+          "kills": 0
+        },
+        {
+          "nome": "Dono da Bola",
+          "kills": 3
+        }
+      ]
+    }
+  },
+  {
+    "game": 8,
+    "status": {
+      "total_kills": 67,
+      "players": [
+        {
+          "nome": "Assasinu Credi",
+          "kills": 11
+        },
+        {
+          "nome": "Oootsimo",
+          "kills": 9
+        },
+        {
+          "nome": "Zeh",
+          "kills": 12
+        },
+        {
+          "nome": "Mal",
+          "kills": 4
+        },
+        {
+          "nome": "Dono da Bola",
+          "kills": 2
+        },
+        {
+          "nome": "Isgalamido",
+          "kills": 2
+        },
+        {
+          "nome": "Chessus",
+          "kills": 8
+        }
+      ]
+    }
+  },
+  {
+    "game": 9,
+    "status": {
+      "total_kills": 60,
+      "players": [
+        {
+          "nome": "Mal",
+          "kills": 1
+        },
+        {
+          "nome": "Oootsimo",
+          "kills": 0
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": 3
+        },
+        {
+          "nome": "Dono da Bola",
+          "kills": 3
+        },
+        {
+          "nome": "Chessus",
+          "kills": 5
+        },
+        {
+          "nome": "Zeh",
+          "kills": 7
+        },
+        {
+          "nome": "Isgalamido",
+          "kills": 6
+        }
+      ]
+    }
+  },
+  {
+    "game": 10,
+    "status": {
+      "total_kills": 20,
+      "players": [
+        {
+          "nome": "Dono da Bola",
+          "kills": 1
+        },
+        {
+          "nome": "Isgalamido",
+          "kills": 7
+        },
+        {
+          "nome": "Oootsimo",
+          "kills": 4
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": 0
+        },
+        {
+          "nome": "Chessus",
+          "kills": 0
+        },
+        {
+          "nome": "Zeh",
+          "kills": 0
+        },
+        {
+          "nome": "Mal",
+          "kills": 0
+        }
+      ]
+    }
+  },
+  {
+    "game": 11,
+    "status": {
+      "total_kills": 160,
+      "players": [
+        {
+          "nome": "Dono da Bola",
+          "kills": 7
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": 20
+        },
+        {
+          "nome": "Chessus",
+          "kills": 14
+        },
+        {
+          "nome": "Mal",
+          "kills": 0
+        },
+        {
+          "nome": "Zeh",
+          "kills": 13
+        },
+        {
+          "nome": "Isgalamido",
+          "kills": 26
+        },
+        {
+          "nome": "Oootsimo",
+          "kills": 13
+        }
+      ]
+    }
+  },
+  {
+    "game": 12,
+    "status": {
+      "total_kills": 6,
+      "players": [
+        {
+          "nome": "Isgalamido",
+          "kills": 0
+        },
+        {
+          "nome": "Oootsimo",
+          "kills": 2
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": 0
+        },
+        {
+          "nome": "Dono da Bola",
+          "kills": 0
+        },
+        {
+          "nome": "Zeh",
+          "kills": 2
+        }
+      ]
+    }
+  },
+  {
+    "game": 13,
+    "status": {
+      "total_kills": 122,
+      "players": [
+        {
+          "nome": "Isgalamido",
+          "kills": 22
+        },
+        {
+          "nome": "Zeh",
+          "kills": 5
+        },
+        {
+          "nome": "Chessus",
+          "kills": 7
+        },
+        {
+          "nome": "Dono da Bola",
+          "kills": 2
+        },
+        {
+          "nome": "Mal",
+          "kills": 0
+        },
+        {
+          "nome": "Oootsimo",
+          "kills": 10
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": 7
+        }
+      ]
+    }
+  },
+  {
+    "game": 14,
+    "status": {
+      "total_kills": 3,
+      "players": [
+        {
+          "nome": "Zeh",
+          "kills": 0
+        }
+      ]
+    }
+  },
+  {
+    "game": 15,
+    "status": {
+      "total_kills": 13,
+      "players": [
+        {
+          "nome": "Dono da Bola",
+          "kills": 0
+        },
+        {
+          "nome": "Zeh",
+          "kills": 1
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": 0
+        },
+        {
+          "nome": "Oootsimo",
+          "kills": 2
+        },
+        {
+          "nome": "Isgalamido",
+          "kills": 1
+        },
+        {
+          "nome": "Mal",
+          "kills": 0
+        }
+      ]
+    }
+  },
+  {
+    "game": 16,
+    "status": {
+      "total_kills": 7,
+      "players": [
+        {
+          "nome": "Zeh",
+          "kills": 2
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": 2
+        },
+        {
+          "nome": "Isgalamido",
+          "kills": 1
+        },
+        {
+          "nome": "Mal",
+          "kills": 0
+        },
+        {
+          "nome": "Oootsimo",
+          "kills": 0
+        },
+        {
+          "nome": "Dono da Bola",
+          "kills": 0
+        }
+      ]
+    }
+  },
+  {
+    "game": 17,
+    "status": {
+      "total_kills": 95,
+      "players": [
+        {
+          "nome": "Mal",
+          "kills": 4
+        },
+        {
+          "nome": "Zeh",
+          "kills": 20
+        },
+        {
+          "nome": "Dono da Bola",
+          "kills": 15
+        },
+        {
+          "nome": "Isgalamido",
+          "kills": 14
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": 9
+        },
+        {
+          "nome": "Oootsimo",
+          "kills": 10
+        }
+      ]
+    }
+  },
+  {
+    "game": 18,
+    "status": {
+      "total_kills": 3,
+      "players": [
+        {
+          "nome": "Dono da Bola",
+          "kills": 2
+        },
+        {
+          "nome": "Zeh",
+          "kills": 0
+        },
+        {
+          "nome": "Oootsimo",
+          "kills": 1
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": 0
+        }
+      ]
+    }
+  },
+  {
+    "game": 19,
+    "status": {
+      "total_kills": 131,
+      "players": [
+        {
+          "nome": "Dono da Bola",
+          "kills": 14
+        },
+        {
+          "nome": "Isgalamido",
+          "kills": 17
+        },
+        {
+          "nome": "Zeh",
+          "kills": 19
+        },
+        {
+          "nome": "Oootsimo",
+          "kills": 23
+        },
+        {
+          "nome": "Mal",
+          "kills": 10
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": 19
+        }
+      ]
+    }
+  }
+]
