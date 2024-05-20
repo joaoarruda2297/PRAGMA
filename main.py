@@ -47,7 +47,6 @@ def parse_log(log_file):
             if killer != "<world>" and killer != victim:
                 killer_data = next((p for p in current_game["status"]["players"] if p["nome"] == killer), None)
                 killer_data["kills"] += 1
-                print("entrei")
 
             if killer == "<world>":
                 world_victim = next((p for p in current_game["status"]["players"] if p["nome"] == victim), None)
