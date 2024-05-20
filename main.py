@@ -16,17 +16,23 @@ def parse_log(log_file):
         line = line.strip()
 
         timestamp, rest = line.split(" ", 1)
-        if rest.startswith("InitGame"):
-            if current_game["status"]["total_kills"] > 0:
-                games.append(current_game)
-                game_number += 1
-                current_game = {
-                    "game": game_number,
-                    "status": {
-                        "total_kills": 0,
-                        "players": []
-                    }
+        if rest.startswith("ShutdownGame:"):
+            games.append(current_game)
+            game_number += 1
+            current_game = {
+                "game": game_number,
+                "status": {
+                    "total_kills": 0,
+                    "players": []
                 }
+            }
+        elif rest.startswith("ClientUserinfoChanged:"):
+            parts = rest.split("\\")
+            user = parts[1]
+            user_data = next((p for p in current_game["status"]["players"] if p["nome"] == user), None)
+            if user_data is None:
+                user_data = {"nome": user, "kills": 0}
+                current_game["status"]["players"].append(user_data)
         elif rest.startswith("Kill:"):
             parts = rest.split(" ")
 
@@ -36,28 +42,17 @@ def parse_log(log_file):
             killer = ' '.join(parts[4:killed_index])
             victim = ' '.join(parts[(killed_index + 1):by_index])
 
-            #print(parts, len(parts), killer, victim)
             current_game["status"]["total_kills"] += 1
             
-            if killer != "<world>":
+            if killer != "<world>" and killer != victim:
                 killer_data = next((p for p in current_game["status"]["players"] if p["nome"] == killer), None)
-                if killer_data is None:
-                    killer_data = {"nome": killer, "kills": 0}
-                    current_game["status"]["players"].append(killer_data)
                 killer_data["kills"] += 1
-
-            victim_data = next((p for p in current_game["status"]["players"] if p["nome"] == victim), None)
-            if victim_data is None:
-                victim_data = {"nome": victim, "kills": 0}
-                current_game["status"]["players"].append(victim_data)
+                print("entrei")
 
             if killer == "<world>":
                 world_victim = next((p for p in current_game["status"]["players"] if p["nome"] == victim), None)
                 if world_victim["kills"] > 0:
                     world_victim["kills"] -= 1
-
-    if current_game["status"]["total_kills"] > 0:
-        games.append(current_game)
 
     return games
 
