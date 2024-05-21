@@ -18,7 +18,7 @@
       "players": [
         {
           "nome": "Isgalamido",
-          "kills": 0
+          "kills": -7
         },
         {
           "nome": "Dono da Bola",
@@ -38,7 +38,7 @@
       "players": [
         {
           "nome": "Dono da Bola",
-          "kills": 0
+          "kills": -1
         },
         {
           "nome": "Mocinha",
@@ -50,7 +50,7 @@
         },
         {
           "nome": "Zeh",
-          "kills": 0
+          "kills": -2
         }
       ]
     }
@@ -62,11 +62,11 @@
       "players": [
         {
           "nome": "Dono da Bola",
-          "kills": 10
+          "kills": 9
         },
         {
           "nome": "Isgalamido",
-          "kills": 21
+          "kills": 19
         },
         {
           "nome": "Zeh",
@@ -74,7 +74,7 @@
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 13
+          "kills": 12
         }
       ]
     }
@@ -98,7 +98,7 @@
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 1
+          "kills": -1
         }
       ]
     }
@@ -162,15 +162,15 @@
         },
         {
           "nome": "Zeh",
-          "kills": 10
+          "kills": 8
         },
         {
           "nome": "Dono da Bola",
-          "kills": 11
+          "kills": 10
         },
         {
           "nome": "Mal",
-          "kills": 2
+          "kills": -3
         },
         {
           "nome": "Assasinu Credi",
@@ -194,7 +194,7 @@
       "players": [
         {
           "nome": "Oootsimo",
-          "kills": 16
+          "kills": 15
         },
         {
           "nome": "Isgalamido",
@@ -210,7 +210,7 @@
         },
         {
           "nome": "Mal",
-          "kills": 0
+          "kills": -3
         },
         {
           "nome": "Assasinu Credi",
@@ -230,7 +230,7 @@
         },
         {
           "nome": "Isgalamido",
-          "kills": 2
+          "kills": 1
         },
         {
           "nome": "Zeh",
@@ -242,11 +242,11 @@
         },
         {
           "nome": "Mal",
-          "kills": 3
+          "kills": 2
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 8
+          "kills": 7
         },
         {
           "nome": "Chessus!",
@@ -266,7 +266,7 @@
       "players": [
         {
           "nome": "Oootsimo",
-          "kills": 0
+          "kills": -1
         },
         {
           "nome": "Dono da Bola",
@@ -302,11 +302,11 @@
       "players": [
         {
           "nome": "Dono da Bola",
-          "kills": 1
+          "kills": -2
         },
         {
           "nome": "Isgalamido",
-          "kills": 6
+          "kills": 4
         },
         {
           "nome": "Zeh",
@@ -322,7 +322,7 @@
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 0
+          "kills": -3
         },
         {
           "nome": "UnnamedPlayer",
@@ -346,7 +346,7 @@
         },
         {
           "nome": "Dono da Bola",
-          "kills": 7
+          "kills": 3
         },
         {
           "nome": "Zeh",
@@ -358,7 +358,7 @@
         },
         {
           "nome": "Chessus",
-          "kills": 13
+          "kills": 12
         },
         {
           "nome": "Assasinu Credi",
@@ -366,7 +366,7 @@
         },
         {
           "nome": "Mal",
-          "kills": 0
+          "kills": -7
         }
       ]
     }
@@ -378,11 +378,11 @@
       "players": [
         {
           "nome": "Isgalamido",
-          "kills": 0
+          "kills": -1
         },
         {
           "nome": "Dono da Bola",
-          "kills": 0
+          "kills": -1
         },
         {
           "nome": "Zeh",
@@ -426,7 +426,7 @@
         },
         {
           "nome": "Oootsimo",
-          "kills": 10
+          "kills": 9
         },
         {
           "nome": "Chessus",
@@ -434,11 +434,11 @@
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 5
+          "kills": 3
         },
         {
           "nome": "Mal",
-          "kills": 0
+          "kills": -5
         }
       ]
     }
@@ -450,7 +450,7 @@
       "players": [
         {
           "nome": "Zeh",
-          "kills": 0
+          "kills": -3
         },
         {
           "nome": "Assasinu Credi",
@@ -510,23 +510,23 @@
       "players": [
         {
           "nome": "Dono da Bola",
-          "kills": 0
+          "kills": -2
         },
         {
           "nome": "Oootsimo",
-          "kills": 1
-        },
-        {
-          "nome": "Isgalamido",
-          "kills": 1
-        },
-        {
-          "nome": "Assasinu Credi",
           "kills": 0
         },
         {
+          "nome": "Isgalamido",
+          "kills": 0
+        },
+        {
+          "nome": "Assasinu Credi",
+          "kills": -3
+        },
+        {
           "nome": "Zeh",
-          "kills": 1
+          "kills": 0
         },
         {
           "nome": "UnnamedPlayer",
@@ -534,7 +534,7 @@
         },
         {
           "nome": "Mal",
-          "kills": 0
+          "kills": -1
         }
       ]
     }
@@ -546,7 +546,7 @@
       "players": [
         {
           "nome": "Dono da Bola",
-          "kills": 0
+          "kills": -1
         },
         {
           "nome": "Oootsimo",
@@ -566,7 +566,7 @@
         },
         {
           "nome": "Mal",
-          "kills": 0
+          "kills": -1
         }
       ]
     }
@@ -586,7 +586,7 @@
         },
         {
           "nome": "Dono da Bola",
-          "kills": 13
+          "kills": 12
         },
         {
           "nome": "Assasinu Credi",
@@ -598,7 +598,7 @@
         },
         {
           "nome": "Mal",
-          "kills": 4
+          "kills": 2
         }
       ]
     }
@@ -646,7 +646,7 @@
         },
         {
           "nome": "Oootsimo",
-          "kills": 22
+          "kills": 21
         },
         {
           "nome": "Dono da Bola",
@@ -662,7 +662,7 @@
         },
         {
           "nome": "Mal",
-          "kills": 10
+          "kills": 6
         }
       ]
     }

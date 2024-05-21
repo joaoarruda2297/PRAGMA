@@ -50,8 +50,7 @@ def parse_log(log_file):
 
             if killer == "<world>":
                 world_victim = next((p for p in current_game["status"]["players"] if p["nome"] == victim), None)
-                if world_victim["kills"] > 0:
-                    world_victim["kills"] -= 1
+                world_victim["kills"] -= 1
 
     return games
 
