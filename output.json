@@ -6,7 +6,9 @@
       "players": [
         {
           "nome": "Isgalamido",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": []
         }
       ]
     }
@@ -18,11 +20,28 @@
       "players": [
         {
           "nome": "Isgalamido",
-          "kills": -9
+          "kills": -9,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "rockets",
+            "armor_body",
+            "shells",
+            "health_large",
+            "quad",
+            "armor_shard",
+            "armor_combat",
+            "shotgun",
+            "health_mega"
+          ]
         },
         {
           "nome": "Mocinha",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [
+            "Dono da Bola"
+          ],
+          "collected_items": []
         }
       ]
     }
@@ -34,15 +53,41 @@
       "players": [
         {
           "nome": "Dono da Bola",
-          "kills": -1
+          "kills": -1,
+          "prev_names": [
+            "Dono da Bola",
+            "Mocinha"
+          ],
+          "collected_items": [
+            "rocketlauncher",
+            "armor_shard",
+            "armor_combat",
+            "health_large",
+            "rockets"
+          ]
         },
         {
           "nome": "Isgalamido",
-          "kills": 1
+          "kills": 1,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "armor_shard",
+            "armor_combat",
+            "railgun"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": -2
+          "kills": -2,
+          "prev_names": [],
+          "collected_items": [
+            "shotgun",
+            "shells",
+            "health_large",
+            "rocketlauncher",
+            "rockets"
+          ]
         }
       ]
     }
@@ -54,19 +99,76 @@
       "players": [
         {
           "nome": "Dono da Bola",
-          "kills": 5
+          "kills": 5,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "health_large",
+            "railgun",
+            "rockets",
+            "shotgun",
+            "armor_shard",
+            "armor_combat",
+            "bullets",
+            "quad",
+            "armor_body",
+            "health"
+          ]
         },
         {
           "nome": "Isgalamido",
-          "kills": 19
+          "kills": 19,
+          "prev_names": [],
+          "collected_items": [
+            "armor_shard",
+            "armor_combat",
+            "rocketlauncher",
+            "rockets",
+            "railgun",
+            "quad",
+            "armor_body",
+            "health_large",
+            "bullets",
+            "slugs",
+            "shotgun",
+            "health_mega"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": 20
+          "kills": 20,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "rocketlauncher",
+            "armor_body",
+            "armor_shard",
+            "armor_combat",
+            "shells",
+            "shotgun",
+            "railgun",
+            "health_large",
+            "bullets",
+            "quad",
+            "health"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 11
+          "kills": 11,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "armor_body",
+            "rockets",
+            "armor_shard",
+            "health_large",
+            "armor_combat",
+            "railgun",
+            "shotgun",
+            "shells",
+            "quad"
+          ]
         }
       ]
     }
@@ -78,19 +180,56 @@
       "players": [
         {
           "nome": "Dono da Bola",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "armor_shard",
+            "armor_combat",
+            "rockets",
+            "armor_body",
+            "railgun",
+            "health_large",
+            "slugs",
+            "shells",
+            "shotgun"
+          ]
         },
         {
           "nome": "Isgalamido",
-          "kills": 2
+          "kills": 2,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "rocketlauncher",
+            "health_large",
+            "armor_body",
+            "railgun"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": 1
+          "kills": 1,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "rockets"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": -3
+          "kills": -3,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "armor_body",
+            "armor_shard",
+            "armor_combat",
+            "health_mega",
+            "railgun",
+            "rockets",
+            "shotgun"
+          ]
         }
       ]
     }
@@ -102,27 +241,88 @@
       "players": [
         {
           "nome": "Oootsimo",
-          "kills": 8
+          "kills": 8,
+          "prev_names": [
+            "Fasano Again"
+          ],
+          "collected_items": [
+            "rocketlauncher",
+            "rockets",
+            "armor_body",
+            "armor_shard",
+            "armor_combat",
+            "shotgun",
+            "health_large",
+            "shells"
+          ]
         },
         {
           "nome": "Isgalamido",
-          "kills": 3
+          "kills": 3,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "health_large",
+            "railgun",
+            "quad",
+            "shotgun",
+            "armor_shard",
+            "slugs",
+            "rockets"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": 7
+          "kills": 7,
+          "prev_names": [],
+          "collected_items": [
+            "shells",
+            "shotgun",
+            "rocketlauncher",
+            "rockets",
+            "railgun",
+            "quad",
+            "armor_body",
+            "health_large",
+            "armor_shard",
+            "armor_combat"
+          ]
         },
         {
           "nome": "Dono da Bola",
-          "kills": 2
+          "kills": 2,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "railgun",
+            "armor_body"
+          ]
         },
         {
           "nome": "Mal",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [
+            "UnnamedPlayer",
+            "Maluquinho"
+          ],
+          "collected_items": [
+            "bullets",
+            "rocketlauncher",
+            "armor_combat",
+            "health_large"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 1
+          "kills": 1,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "rockets",
+            "armor_body",
+            "shells",
+            "health_large"
+          ]
         }
       ]
     }
@@ -134,31 +334,113 @@
       "players": [
         {
           "nome": "Oootsimo",
-          "kills": 20
+          "kills": 20,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "rocketlauncher",
+            "armor_shard",
+            "armor_combat",
+            "bullets",
+            "health_large",
+            "quad",
+            "railgun",
+            "shotgun"
+          ]
         },
         {
           "nome": "Isgalamido",
-          "kills": 12
+          "kills": 12,
+          "prev_names": [],
+          "collected_items": [
+            "railgun",
+            "rocketlauncher",
+            "rockets",
+            "quad",
+            "shotgun",
+            "armor_shard",
+            "armor_combat",
+            "bullets",
+            "health_large",
+            "armor_body"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": 7
+          "kills": 7,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "health_large",
+            "armor_body",
+            "railgun",
+            "health",
+            "quad",
+            "shotgun",
+            "armor_combat",
+            "slugs",
+            "rockets",
+            "shells",
+            "armor_shard",
+            "bullets"
+          ]
         },
         {
           "nome": "Dono da Bola",
-          "kills": 8
+          "kills": 8,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "rocketlauncher",
+            "railgun",
+            "armor_shard",
+            "quad",
+            "shotgun",
+            "armor_combat",
+            "health_large",
+            "health"
+          ]
         },
         {
           "nome": "Mal",
-          "kills": -3
+          "kills": -3,
+          "prev_names": [],
+          "collected_items": [
+            "bullets",
+            "rocketlauncher",
+            "shotgun",
+            "shells",
+            "rockets",
+            "quad",
+            "armor_shard",
+            "railgun"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 16
+          "kills": 16,
+          "prev_names": [],
+          "collected_items": [
+            "armor_body",
+            "rocketlauncher",
+            "quad",
+            "rockets",
+            "railgun",
+            "shotgun",
+            "health_large",
+            "armor_shard",
+            "armor_combat"
+          ]
         },
         {
           "nome": "Chessus",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [
+            "Chessus!"
+          ],
+          "collected_items": [
+            "railgun"
+          ]
         }
       ]
     }
@@ -170,27 +452,96 @@
       "players": [
         {
           "nome": "Oootsimo",
-          "kills": 14
+          "kills": 14,
+          "prev_names": [],
+          "collected_items": [
+            "shotgun",
+            "shells",
+            "rocketlauncher",
+            "bullets",
+            "armor_shard",
+            "health_large",
+            "railgun",
+            "armor_combat"
+          ]
         },
         {
           "nome": "Isgalamido",
-          "kills": 20
+          "kills": 20,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "rocketlauncher",
+            "armor_shard",
+            "armor_combat",
+            "health_large",
+            "quad",
+            "railgun"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": 12
+          "kills": 12,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "rocketlauncher",
+            "bullets",
+            "health_large",
+            "railgun",
+            "armor_combat",
+            "shells",
+            "shotgun",
+            "armor_body",
+            "slugs",
+            "health",
+            "armor_shard",
+            "quad"
+          ]
         },
         {
           "nome": "Dono da Bola",
-          "kills": -1
+          "kills": -1,
+          "prev_names": [],
+          "collected_items": [
+            "railgun",
+            "armor_shard",
+            "rocketlauncher",
+            "rockets",
+            "armor_combat",
+            "armor_body"
+          ]
         },
         {
           "nome": "Mal",
-          "kills": -4
+          "kills": -4,
+          "prev_names": [],
+          "collected_items": [
+            "shells",
+            "shotgun",
+            "armor_body",
+            "railgun",
+            "rocketlauncher",
+            "health_large",
+            "quad",
+            "armor_shard",
+            "bullets",
+            "rockets"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 8
+          "kills": 8,
+          "prev_names": [],
+          "collected_items": [
+            "armor_body",
+            "rocketlauncher",
+            "armor_shard",
+            "health_large",
+            "armor_combat",
+            "rockets",
+            "railgun"
+          ]
         }
       ]
     }
@@ -202,27 +553,92 @@
       "players": [
         {
           "nome": "Oootsimo",
-          "kills": 7
+          "kills": 7,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "shotgun",
+            "armor_shard",
+            "armor_combat",
+            "health_large",
+            "quad",
+            "railgun",
+            "rockets"
+          ]
         },
         {
           "nome": "Isgalamido",
-          "kills": 1
+          "kills": 1,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "shotgun"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": 12
+          "kills": 12,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "rocketlauncher",
+            "slugs",
+            "railgun",
+            "armor_shard",
+            "shotgun",
+            "health_large",
+            "armor_body",
+            "quad",
+            "bullets"
+          ]
         },
         {
           "nome": "Chessus",
-          "kills": 8
+          "kills": 8,
+          "prev_names": [
+            "Dono da Bola",
+            "Chessus!"
+          ],
+          "collected_items": [
+            "rocketlauncher",
+            "rockets",
+            "slugs",
+            "railgun",
+            "health_large"
+          ]
         },
         {
           "nome": "Mal",
-          "kills": 1
+          "kills": 1,
+          "prev_names": [],
+          "collected_items": [
+            "shells",
+            "shotgun",
+            "armor_shard",
+            "armor_combat",
+            "rocketlauncher",
+            "armor_body",
+            "health_large",
+            "rockets"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 4
+          "kills": 4,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "rocketlauncher",
+            "armor_shard",
+            "armor_combat",
+            "quad",
+            "health_large",
+            "railgun",
+            "shells",
+            "shotgun",
+            "armor_body",
+            "bullets"
+          ]
         }
       ]
     }
@@ -234,31 +650,81 @@
       "players": [
         {
           "nome": "Oootsimo",
-          "kills": -1
+          "kills": -1,
+          "prev_names": [],
+          "collected_items": [
+            "railgun",
+            "rocketlauncher",
+            "health_large"
+          ]
         },
         {
           "nome": "Dono da Bola",
-          "kills": 3
+          "kills": 3,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "health",
+            "quad"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": 7
+          "kills": 7,
+          "prev_names": [],
+          "collected_items": [
+            "railgun",
+            "health_large",
+            "rocketlauncher",
+            "rockets",
+            "bullets",
+            "bfg",
+            "armor_body",
+            "health"
+          ]
         },
         {
           "nome": "Chessus",
-          "kills": 5
+          "kills": 5,
+          "prev_names": [],
+          "collected_items": []
         },
         {
           "nome": "Mal",
-          "kills": 1
+          "kills": 1,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "bullets",
+            "rocketlauncher",
+            "bfg",
+            "health",
+            "railgun"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 3
+          "kills": 3,
+          "prev_names": [],
+          "collected_items": [
+            "quad",
+            "rocketlauncher",
+            "bfg",
+            "railgun",
+            "health_large"
+          ]
         },
         {
           "nome": "Isgalamido",
-          "kills": 4
+          "kills": 4,
+          "prev_names": [],
+          "collected_items": [
+            "railgun",
+            "armor_body",
+            "bfg",
+            "rocketlauncher",
+            "health"
+          ]
         }
       ]
     }
@@ -270,31 +736,90 @@
       "players": [
         {
           "nome": "Dono da Bola",
-          "kills": -2
+          "kills": -2,
+          "prev_names": [],
+          "collected_items": [
+            "railgun",
+            "rocketlauncher",
+            "bfg",
+            "armor_body",
+            "health",
+            "CTF_blueflag"
+          ]
         },
         {
           "nome": "Isgalamido",
-          "kills": 3
+          "kills": 3,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "railgun",
+            "armor_body",
+            "bfg",
+            "rockets",
+            "bullets"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "bullets",
+            "rockets",
+            "railgun",
+            "health_large",
+            "CTF_redflag",
+            "rocketlauncher"
+          ]
         },
         {
           "nome": "Oootsimo",
-          "kills": 4
+          "kills": 4,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "CTF_redflag",
+            "health_large",
+            "CTF_blueflag",
+            "railgun"
+          ]
         },
         {
           "nome": "Chessus",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "railgun",
+            "rocketlauncher",
+            "CTF_redflag",
+            "CTF_blueflag",
+            "rockets",
+            "bfg"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": -3
+          "kills": -3,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "railgun",
+            "CTF_blueflag",
+            "rockets",
+            "bullets"
+          ]
         },
         {
           "nome": "Mal",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [
+            "UnnamedPlayer"
+          ],
+          "collected_items": [
+            "rocketlauncher",
+            "CTF_redflag"
+          ]
         }
       ]
     }
@@ -306,31 +831,111 @@
       "players": [
         {
           "nome": "Isgalamido",
-          "kills": 22
+          "kills": 22,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "bullets",
+            "rocketlauncher",
+            "health_large",
+            "bfg",
+            "CTF_redflag",
+            "railgun",
+            "CTF_blueflag",
+            "health",
+            "armor_body"
+          ]
         },
         {
           "nome": "Dono da Bola",
-          "kills": 3
+          "kills": 3,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "CTF_blueflag",
+            "railgun",
+            "health_large",
+            "CTF_redflag",
+            "bfg",
+            "armor_body",
+            "rockets"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": 9
+          "kills": 9,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "rockets",
+            "bullets",
+            "CTF_blueflag",
+            "CTF_redflag",
+            "health_large",
+            "railgun",
+            "bfg",
+            "health",
+            "armor_body"
+          ]
         },
         {
           "nome": "Oootsimo",
-          "kills": 11
+          "kills": 11,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "railgun",
+            "CTF_blueflag",
+            "rockets",
+            "bullets",
+            "health_large",
+            "CTF_redflag",
+            "bfg",
+            "armor_body"
+          ]
         },
         {
           "nome": "Chessus",
-          "kills": 11
+          "kills": 11,
+          "prev_names": [],
+          "collected_items": [
+            "railgun",
+            "bfg",
+            "rocketlauncher",
+            "CTF_redflag",
+            "armor_body",
+            "CTF_blueflag",
+            "bullets",
+            "health_large"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 16
+          "kills": 16,
+          "prev_names": [],
+          "collected_items": [
+            "railgun",
+            "CTF_redflag",
+            "rocketlauncher",
+            "rockets",
+            "bullets",
+            "health_large",
+            "CTF_blueflag"
+          ]
         },
         {
           "nome": "Mal",
-          "kills": -8
+          "kills": -8,
+          "prev_names": [],
+          "collected_items": [
+            "CTF_redflag",
+            "rocketlauncher",
+            "railgun",
+            "health_large",
+            "CTF_blueflag",
+            "rockets",
+            "bullets"
+          ]
         }
       ]
     }
@@ -342,31 +947,67 @@
       "players": [
         {
           "nome": "Isgalamido",
-          "kills": -1
+          "kills": -1,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "bfg"
+          ]
         },
         {
           "nome": "Dono da Bola",
-          "kills": -1
+          "kills": -1,
+          "prev_names": [],
+          "collected_items": []
         },
         {
           "nome": "Zeh",
-          "kills": 2
+          "kills": 2,
+          "prev_names": [],
+          "collected_items": [
+            "railgun",
+            "health_large",
+            "rocketlauncher",
+            "bfg"
+          ]
         },
         {
           "nome": "Oootsimo",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "bullets",
+            "rocketlauncher",
+            "health_large",
+            "CTF_redflag",
+            "CTF_blueflag"
+          ]
         },
         {
           "nome": "Chessus",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "railgun",
+            "rocketlauncher"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "railgun"
+          ]
         },
         {
           "nome": "Mal",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher"
+          ]
         }
       ]
     }
@@ -378,31 +1019,106 @@
       "players": [
         {
           "nome": "Isgalamido",
-          "kills": 22
+          "kills": 22,
+          "prev_names": [],
+          "collected_items": [
+            "railgun",
+            "rocketlauncher",
+            "health_large",
+            "CTF_redflag",
+            "health",
+            "bfg",
+            "CTF_blueflag",
+            "armor_body",
+            "bullets",
+            "rockets"
+          ]
         },
         {
           "nome": "Dono da Bola",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "bullets",
+            "rocketlauncher",
+            "CTF_blueflag",
+            "railgun",
+            "armor_body",
+            "CTF_redflag",
+            "health_large"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": 3
+          "kills": 3,
+          "prev_names": [],
+          "collected_items": [
+            "bullets",
+            "rocketlauncher",
+            "armor_body",
+            "CTF_blueflag",
+            "CTF_redflag",
+            "rockets",
+            "railgun",
+            "bfg",
+            "health_large"
+          ]
         },
         {
           "nome": "Oootsimo",
-          "kills": 9
+          "kills": 9,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "CTF_redflag",
+            "bullets",
+            "rockets",
+            "railgun",
+            "CTF_blueflag",
+            "health_large"
+          ]
         },
         {
           "nome": "Chessus",
-          "kills": 7
+          "kills": 7,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "railgun",
+            "CTF_blueflag",
+            "rocketlauncher",
+            "health_large",
+            "bullets",
+            "CTF_redflag"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": -1
+          "kills": -1,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "CTF_blueflag",
+            "railgun",
+            "rockets",
+            "bullets",
+            "CTF_redflag",
+            "health_large"
+          ]
         },
         {
           "nome": "Mal",
-          "kills": -8
+          "kills": -8,
+          "prev_names": [],
+          "collected_items": [
+            "health_large",
+            "rocketlauncher",
+            "railgun",
+            "CTF_blueflag",
+            "CTF_redflag",
+            "armor_body"
+          ]
         }
       ]
     }
@@ -414,19 +1130,39 @@
       "players": [
         {
           "nome": "Isgalamido",
-          "kills": -3
+          "kills": -3,
+          "prev_names": [
+            "Zeh"
+          ],
+          "collected_items": [
+            "railgun",
+            "armor_body",
+            "CTF_redflag",
+            "rockets",
+            "bullets",
+            "rocketlauncher",
+            "CTF_blueflag"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": []
         },
         {
           "nome": "Dono da Bola",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": []
         },
         {
           "nome": "Oootsimo",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [
+            "Fasano Again"
+          ],
+          "collected_items": []
         }
       ]
     }
@@ -438,23 +1174,38 @@
       "players": [
         {
           "nome": "Dono da Bola",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": []
         },
         {
           "nome": "Oootsimo",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "railgun"
+          ]
         },
         {
           "nome": "Isgalamido",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "railgun",
+            "rocketlauncher"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": []
         },
         {
           "nome": "Zeh",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": []
         }
       ]
     }
@@ -466,27 +1217,80 @@
       "players": [
         {
           "nome": "Dono da Bola",
-          "kills": -2
+          "kills": -2,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "rockets"
+          ]
         },
         {
           "nome": "Oootsimo",
-          "kills": -1
+          "kills": -1,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "rockets",
+            "armor_shard",
+            "armor_combat",
+            "health_large",
+            "shells",
+            "shotgun"
+          ]
         },
         {
           "nome": "Isgalamido",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "railgun",
+            "rocketlauncher",
+            "quad",
+            "rockets",
+            "slugs"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": -3
+          "kills": -3,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "armor_body",
+            "rockets",
+            "quad",
+            "railgun",
+            "armor_combat"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "railgun",
+            "health",
+            "armor_shard",
+            "shotgun",
+            "health_large",
+            "armor_body",
+            "rockets"
+          ]
         },
         {
           "nome": "Mal",
-          "kills": -1
+          "kills": -1,
+          "prev_names": [
+            "UnnamedPlayer"
+          ],
+          "collected_items": [
+            "rocketlauncher",
+            "armor_shard",
+            "slugs",
+            "quad",
+            "railgun"
+          ]
         }
       ]
     }
@@ -498,27 +1302,59 @@
       "players": [
         {
           "nome": "Dono da Bola",
-          "kills": -1
+          "kills": -1,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher"
+          ]
         },
         {
           "nome": "Oootsimo",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "health_large"
+          ]
         },
         {
           "nome": "Isgalamido",
-          "kills": 1
+          "kills": 1,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 2
+          "kills": 2,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "rocketlauncher",
+            "armor_shard",
+            "armor_combat"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": 2
+          "kills": 2,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "armor_body",
+            "rocketlauncher",
+            "bullets"
+          ]
         },
         {
           "nome": "Mal",
-          "kills": -1
+          "kills": -1,
+          "prev_names": [],
+          "collected_items": [
+            "bullets",
+            "rocketlauncher"
+          ]
         }
       ]
     }
@@ -530,27 +1366,99 @@
       "players": [
         {
           "nome": "Isgalamido",
-          "kills": 12
+          "kills": 12,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "rockets",
+            "railgun",
+            "armor_body",
+            "quad",
+            "armor_shard",
+            "bullets",
+            "slugs"
+          ]
         },
         {
           "nome": "Oootsimo",
-          "kills": 10
+          "kills": 10,
+          "prev_names": [],
+          "collected_items": [
+            "shotgun",
+            "shells",
+            "rocketlauncher",
+            "armor_shard",
+            "health_large",
+            "armor_combat",
+            "bullets",
+            "rockets",
+            "railgun",
+            "quad"
+          ]
         },
         {
           "nome": "Dono da Bola",
-          "kills": 10
+          "kills": 10,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "quad",
+            "railgun",
+            "health",
+            "health_large",
+            "armor_shard",
+            "armor_combat",
+            "rockets"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 7
+          "kills": 7,
+          "prev_names": [],
+          "collected_items": [
+            "armor_shard",
+            "health_large",
+            "armor_body",
+            "rocketlauncher",
+            "rockets",
+            "armor_combat",
+            "shotgun",
+            "railgun",
+            "quad"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": 20
+          "kills": 20,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "rockets",
+            "health_large",
+            "bullets",
+            "quad",
+            "armor_body",
+            "railgun",
+            "armor_shard",
+            "shotgun",
+            "shells",
+            "armor_combat"
+          ]
         },
         {
           "nome": "Mal",
-          "kills": 2
+          "kills": 2,
+          "prev_names": [],
+          "collected_items": [
+            "armor_shard",
+            "armor_combat",
+            "shotgun",
+            "rocketlauncher",
+            "slugs",
+            "shells",
+            "health_large",
+            "railgun"
+          ]
         }
       ]
     }
@@ -562,27 +1470,56 @@
       "players": [
         {
           "nome": "Isgalamido",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "railgun"
+          ]
         },
         {
           "nome": "Oootsimo",
-          "kills": 1
+          "kills": 1,
+          "prev_names": [],
+          "collected_items": [
+            "armor_body",
+            "rockets",
+            "shotgun",
+            "rocketlauncher"
+          ]
         },
         {
           "nome": "Dono da Bola",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "armor_shard",
+            "armor_combat"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "rocketlauncher",
+            "health_large"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": []
         },
         {
           "nome": "Mal",
-          "kills": 0
+          "kills": 0,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher"
+          ]
         }
       ]
     }
@@ -594,27 +1531,105 @@
       "players": [
         {
           "nome": "Isgalamido",
-          "kills": 17
+          "kills": 17,
+          "prev_names": [],
+          "collected_items": [
+            "railgun",
+            "rockets",
+            "rocketlauncher",
+            "quad",
+            "armor_shard",
+            "armor_combat",
+            "health_large",
+            "shells",
+            "shotgun",
+            "armor_body"
+          ]
         },
         {
           "nome": "Oootsimo",
-          "kills": 20
+          "kills": 20,
+          "prev_names": [],
+          "collected_items": [
+            "armor_body",
+            "health_large",
+            "rocketlauncher",
+            "shotgun",
+            "shells",
+            "armor_shard",
+            "armor_combat",
+            "rockets",
+            "quad",
+            "railgun"
+          ]
         },
         {
           "nome": "Dono da Bola",
-          "kills": 10
+          "kills": 10,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "rocketlauncher",
+            "armor_shard",
+            "health_large",
+            "railgun",
+            "health",
+            "quad",
+            "armor_body",
+            "bullets"
+          ]
         },
         {
           "nome": "Assasinu Credi",
-          "kills": 13
+          "kills": 13,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "armor_shard",
+            "armor_combat",
+            "armor_body",
+            "health_large",
+            "rockets",
+            "railgun",
+            "shotgun",
+            "quad"
+          ]
         },
         {
           "nome": "Zeh",
-          "kills": 19
+          "kills": 19,
+          "prev_names": [],
+          "collected_items": [
+            "rockets",
+            "rocketlauncher",
+            "slugs",
+            "railgun",
+            "armor_shard",
+            "armor_combat",
+            "quad",
+            "shells",
+            "shotgun",
+            "health_mega",
+            "health_large",
+            "bullets"
+          ]
         },
         {
           "nome": "Mal",
-          "kills": 6
+          "kills": 6,
+          "prev_names": [],
+          "collected_items": [
+            "rocketlauncher",
+            "health_large",
+            "shotgun",
+            "shells",
+            "quad",
+            "rockets",
+            "armor_body",
+            "railgun",
+            "armor_shard",
+            "armor_combat"
+          ]
         }
       ]
     }
