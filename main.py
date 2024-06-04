@@ -11,7 +11,6 @@ def parse_log(log_file):
             "players": []
         }
     }
-    connected_users = []
 
     for line in log_file:
         line = line.strip()
@@ -27,17 +26,6 @@ def parse_log(log_file):
                     "players": []
                 }
             }
-            connected_users = []
-
-        elif rest.startswith("ClientConnect:"):
-            parts = rest.split(" ")
-            user_id = parts[1]
-            connected_users.append(user_id)
-
-        elif rest.startswith("ClientDisconnect:"):
-            parts = rest.split(" ")
-            user_id = parts[1]
-            connected_users.remove(user_id)
 
         elif rest.startswith("ClientUserinfoChanged:"):
             parts = rest.split("\\")
@@ -49,12 +37,25 @@ def parse_log(log_file):
             user_data_by_id = next((p for p in current_game["status"]["players"] if p["id"] == user_id), None)
             if user_data is None:
                 if user_data_by_id is None: #de fato usuário nao existe
-                    user_data = {"id": user_id,"nome": user_name, "kills": 0}
+                    user_data = {"id": user_id,"nome": user_name, "kills": 0, "prev_names": [], "collected_items": []}
                     current_game["status"]["players"].append(user_data)
                 else: #usuário mudou de nome
                     for player in current_game["status"]["players"]:
                         if player["id"] == user_id and player["nome"] != user_name:
+                            player["prev_names"].append(player["nome"])
                             player["nome"] = user_name
+
+        elif rest.startswith("Item:"):
+            parts = rest.split(" ")
+            user_id = parts[1]
+            type_item, item = parts[2].split("_", 1)
+
+            for player in current_game["status"]["players"]:
+                if player["id"] == user_id:
+                    item_data = next((p for p in player["collected_items"] if p == item), None)
+                    if item_data is None:
+                        player["collected_items"].append(item)
+            
 
         elif rest.startswith("Kill:"):
             parts = rest.split(" ")
@@ -71,7 +72,7 @@ def parse_log(log_file):
                 killer_data = next((p for p in current_game["status"]["players"] if p["nome"] == killer), None)
                 killer_data["kills"] += 1
 
-            if killer == "<world>" or killer == victim:
+            elif killer == "<world>" or killer == victim:
                 world_victim = next((p for p in current_game["status"]["players"] if p["nome"] == victim), None)
                 world_victim["kills"] -= 1
     
